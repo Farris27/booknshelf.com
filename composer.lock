@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "acfdb9632c8b18f697d2a90e8cbfe1a9",
+    "content-hash": "d99817e11249ec9f57ee48b8577c90ff",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1468,12 +1468,12 @@
             "version": "1.0.6-beta",
             "source": {
                 "type": "git",
-                "url": "https://github.com/google/google-api-php-client.git",
+                "url": "https://github.com/googleapis/google-api-php-client.git",
                 "reference": "a41a9dc0662e36420030eaab802dbb1f85459479"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/a41a9dc0662e36420030eaab802dbb1f85459479",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/a41a9dc0662e36420030eaab802dbb1f85459479",
                 "reference": "a41a9dc0662e36420030eaab802dbb1f85459479",
                 "shasum": ""
             },
@@ -2291,16 +2291,16 @@
         },
         {
             "name": "laravel/scout",
-            "version": "v1.1.12",
+            "version": "v2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/scout.git",
-                "reference": "9efc1d7b6e51216bbff6430ccef137a08b78fc13"
+                "reference": "c009e8694aa486179a929b69c48e0897007eb3e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/scout/zipball/9efc1d7b6e51216bbff6430ccef137a08b78fc13",
-                "reference": "9efc1d7b6e51216bbff6430ccef137a08b78fc13",
+                "url": "https://api.github.com/repos/laravel/scout/zipball/c009e8694aa486179a929b69c48e0897007eb3e0",
+                "reference": "c009e8694aa486179a929b69c48e0897007eb3e0",
                 "shasum": ""
             },
             "require": {
@@ -2314,18 +2314,16 @@
             },
             "require-dev": {
                 "algolia/algoliasearch-client-php": "^1.10",
-                "elasticsearch/elasticsearch": "^2.2",
                 "mockery/mockery": "~0.9",
                 "phpunit/phpunit": "~5.0"
             },
             "suggest": {
-                "algolia/algoliasearch-client-php": "Required to use the Algolia engine (^1.10).",
-                "elasticsearch/elasticsearch": "Required to use the Elasticsearch engine (^2.2)."
+                "algolia/algoliasearch-client-php": "Required to use the Algolia engine (^1.10)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "2.0-dev"
                 }
             },
             "autoload": {
@@ -2346,11 +2344,10 @@
             "description": "Laravel Scout provides a driver based solution to searching your Eloquent models.",
             "keywords": [
                 "algolia",
-                "elasticsearch",
                 "laravel",
                 "search"
             ],
-            "time": "2016-12-12T22:39:05+00:00"
+            "time": "2017-06-01T16:49:35+00:00"
         },
         {
             "name": "laravel/socialite",
@@ -3381,8 +3378,7 @@
             "authors": [
                 {
                     "name": "Chris Boulton",
-                    "homepage": "http://github.com/chrisboulton",
-                    "role": "Original developer"
+                    "homepage": "http://github.com/chrisboulton"
                 }
             ],
             "description": "A comprehensive library for generating differences between two hashable objects (strings or arrays).",
@@ -3903,6 +3899,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2015-10-02T06:51:40+00:00"
         },
         {
