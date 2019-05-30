@@ -9,7 +9,7 @@
         "laravel/framework": "5.3.*",
         "laravel/socialite": "^2.0",
         "barryvdh/laravel-debugbar": "^2.2",
-        "phpspec/phpspec": "^2.0",
+        "phpspec/phpspec": "^3.4",
         "intervention/imagecache": "^2.3",
         "google/apiclient": "1.0.*@beta",
         "guzzlehttp/guzzle": "~6.1.0",
